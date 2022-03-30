@@ -37,7 +37,7 @@
 {{--    <x-about-us.about-team/>--}}
 
     <!--Sponsors-->
-    <x-common.sponsors/>
+{{--    <x-common.sponsors>--}}
 
     <!--Call TO Action One-->
 {{--    <section class="subscribe-section">--}}

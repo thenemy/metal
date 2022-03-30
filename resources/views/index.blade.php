@@ -40,7 +40,7 @@
 
 
     <!--sponsors style one-->
-    <x-common.sponsors/>
+{{--    <x-common.sponsors/>--}}
 
 
     <!--Fluid Section Two-->
