@@ -21,10 +21,10 @@
             <!--Column-->
             <div class="column col-lg-8 col-md-8 col-sm-12 col-xs-12">
                 <div class="tabs-box tabs-style-one">
-                    <div class="row clearfix">
+                    <div class="row text-about-us clearfix">
 
 
-                        <div class="col-lg-12 col-md-8 col-sm-8 col-xs-12">
+                        <div class="col-lg-10 col-md-8 col-sm-8 col-xs-12">
                             <!--Tabs Content-->
                             <div class="">
 

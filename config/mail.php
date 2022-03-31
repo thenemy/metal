@@ -39,8 +39,8 @@ return [
             'host' => 'smtp.gmail.com',
             'port' => 465,
             'encryption' => 'ssl',
-            'username' => 'euroimpexforward@gmail.com',
-            'password' => 'Desperadoszm2285664',
+            'username' => 'shpaliforward@gmail.com',
+            'password' => '123Aa123',
         ],
         'smtp' => [
             'transport' => 'smtp',
@@ -87,7 +87,13 @@ return [
             ],
         ],
     ],
-
+    'stream' => [
+        'ssl' => [
+            'allow_self_signed' => true,
+            'verify_peer' => false,
+            'verify_peer_name' => false,
+        ],
+    ],
     /*
     |--------------------------------------------------------------------------
     | Global "From" Address

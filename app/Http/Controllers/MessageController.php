@@ -31,7 +31,7 @@ class MessageController extends Controller
             'subject' => $request->subject
         ];
 
-        Mail::to('info@euroasiaimpex.com')->send(new FormSendMail($data));
+        Mail::to('rwsoptim@rwsoptimum.uz')->send(new FormSendMail($data));
 
         return back()->with('success', 'Thanks for contacting us!');
     }

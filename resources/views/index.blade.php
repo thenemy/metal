@@ -6,6 +6,7 @@
     <!-- Stylesheets -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/revolution-slider.css" rel="stylesheet">
+    <meta name="keywords" content="шпалы, sleeper, traverse, железная дорога, строительство, бетон, поезд, верхнее строение пути, ремонт железных дорог, скрепление, Padnrol, железобетон, основание, подъездной путь">
 
     <x-common.style/>
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
@@ -40,7 +41,7 @@
 
 
     <!--sponsors style one-->
-{{--    <x-common.sponsors/>--}}
+    <x-common.sponsors/>
 
 
     <!--Fluid Section Two-->
