@@ -89,14 +89,14 @@
                 <img class="object-fit" src="{{$logo->logo_220_80}}" alt="">
             </div>
             <div class="flex-col w-100 justify-center items-center px-6 col-8">
-                <div class="flex ">
-                    <a href="tel:998712951141"><span class=" text-['Roboto Slab'] text-black text-2xl text-bold"> (998-71) 295-11-41</span></a>
+                <div class="flex text-mdd ">
+                    <a href="tel:998712951141"><span class="  text-mdd  text-['Roboto Slab'] text-black text-md text-xl text-bold"> (998-71) 295-11-41</span></a>
                 </div>
-                <div class="flex">
-                    <a href="fax:+998712951141"><span class=" text-['Roboto Slab'] text-black text-2xl text-bold"> Fax: (998-71) 295-29-34</span></a>
+                <div class="flex text-mdd ">
+                    <a href="fax:+998712951141"><span class=" text-mdd  text-['Roboto Slab'] text-black text-md text-xl text-bold"> Fax: (998-71) 295-29-34</span></a>
                 </div>
-                <div class="flex">
-                    <a href="mailto:{{$footer->actual_links[0]->link}}"><span class=" text-['Roboto Slab'] text-black text-2xl text-bold">{{$footer->actual_links[0]->name}}</span></a>
+                <div class="flex text-mdd ">
+                    <a href="mailto:{{$footer->actual_links[0]->link}}"><span class=" text-mdd  text-['Roboto Slab']  text-black text-xl text-bold">{{$footer->actual_links[0]->name}}</span></a>
                 </div>
             </div>
         </div>

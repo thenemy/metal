@@ -11,6 +11,7 @@ class Category extends Component
      **/
     public $categories;
     public $check;
+    public $object;
 
     public function __construct($model, $object)
     {
@@ -19,7 +20,7 @@ class Category extends Component
         $this->object = $object;
 
         $this->check = function ($id) {
-            if ($this->object) {
+            if ($this->object && isset($this->object['category'])) {
                 return $this->object->category->contains($id);
             }
             return false;

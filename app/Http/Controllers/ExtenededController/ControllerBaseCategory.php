@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers\ExtenededController;
 
-class ControllerBaseCategory extends ControllerExtendedListInput
+class   ControllerBaseCategory extends ControllerExtendedListInput
 {
     private const  PATH = "admin_panel.pages.category.";
     public $nameInBlade = "category";

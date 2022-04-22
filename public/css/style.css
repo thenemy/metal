@@ -51,7 +51,7 @@
 @import url('jquery.fancybox.css');
 @import url('jquery.mCustomScrollbar.min.css');
 @import url('jquery.bootstrap-touchspin.css');
-
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:ital@1&display=swap');
 /***
 
 ====================================================================
@@ -60,6 +60,7 @@
 
  ***/
 * {
+    font-family: 'Lato', sans-serif;
 	margin:0px;
 	padding:0px;
 	border:none;
@@ -84,7 +85,7 @@
     }
 }
 body {
-	font-family: 'Roboto Slab', sans-serif;
+	font-family: 'Lato', sans-serif;
 	font-size:15px;
 	color:#777777;
 	line-height:1.8em;

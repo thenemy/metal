@@ -3,7 +3,7 @@
 <link href="{{mix("css/app.css")}}">
 <style rel="stylesheet">
     @font-face {
-        font-family: pacific;
+        font-family: "Lato", sans-serif;
         src: url(/fonts/pacific.ttf);
     }
     * {
@@ -22,7 +22,7 @@
  ***/
 
     body {
-        font-family: 'Roboto Slab', sans-serif;
+        font-family: 'Source Sans Pro', sans-serif;
         font-size: 15px;
         {{--color: rgba({{$secondary_color[0]}},{{$secondary_color[1]}},{{$secondary_color[2]}},{{$secondary_color[3]}});--}}
             line-height: 1.8em;
@@ -45,7 +45,7 @@
 
     h1, h2, h3, h4, h5, h6 {
         position: relative;
-        font-family: 'Roboto Slab', serif;
+        font-family: 'Source Sans Pro', serif;
         font-weight: normal;
         margin: 0;
         background: none;
@@ -53,7 +53,7 @@
     }
 
     input, button, select, textarea {
-        font-family: 'Roboto Slab', sans-serif;
+        font-family: 'Source Sans Pro', sans-serif;
     }
 
     p {
@@ -543,7 +543,7 @@
 
     .main-menu {
         position: relative;
-        font-family: 'Roboto Slab', sans-serif;
+        font-family: 'Source Sans Pro', sans-serif;
         -webkit-transition: all 300ms ease;
         -ms-transition: all 300ms ease;
         -o-transition: all 300ms ease;
@@ -1275,7 +1275,7 @@
         line-height: 1.4em;
         margin-bottom: 15px;
         font-weight: 700;
-        font-family: 'Roboto Slab', serif;
+        font-family: 'Source Sans Pro', serif;
     }
 
     .intro-section .inner-part .content-column .text {
@@ -1428,14 +1428,14 @@
         font-size: 24px;
         color: rgba({{$title_color[0]}},{{$title_color[1]}},{{$title_color[2]}},{{$title_color[3]}});
         font-weight: 700;
-        font-family: 'Roboto Slab', serif;
+        font-family: 'Source Sans Pro', serif;
         margin-bottom: 20px;
     }
 
     .style-two .tabs-style-one .tabs-content h3 {
         font-size: 34px;
         font-weight: 400;
-        font-family: 'Roboto Slab', cursive;
+        font-family: 'Source Sans Pro', cursive;
     }
 
     .style-two .tabs-style-one .tabs-content .subtitle {
@@ -1656,7 +1656,7 @@
         font-weight: 400;
         color: rgba({{$title_color[0]}},{{$title_color[1]}},{{$title_color[2]}},{{$title_color[3]}});
         margin-bottom: 10px;
-        font-family: 'Roboto Slab', serif;
+        font-family: 'Source Sans Pro', serif;
     }
 
     .default-food-item .lower-content h3 a {
@@ -1778,7 +1778,7 @@
     .deal-of-day .title-box h3 {
         color: rgba({{$choice_color[0]}},{{$choice_color[1]}},{{$choice_color[2]}},{{$choice_color[3]}});
         font-weight: 700;
-        font-family: 'Roboto Slab', serif;
+        font-family: 'Source Sans Pro', serif;
         font-size: 20px;
     }
 
@@ -1988,7 +1988,7 @@
         position: relative;
         font-size: 18px;
         font-weight: 700;
-        font-family: 'Roboto Slab', serif;
+        font-family: 'Source Sans Pro', serif;
         color: rgba({{$title_color[0]}},{{$title_color[1]}},{{$title_color[2]}},{{$title_color[3]}});
         margin-bottom: 15px;
         transition: all 500ms ease;
@@ -2243,7 +2243,7 @@
 
     .testimonial-section-two .slide-item .info .title {
         font-size: 34px;
-        font-family: 'Roboto Slab', cursive;
+        font-family: 'Source Sans Pro', cursive;
         line-height: 1.3em;
         padding-right: 20px;
     }
@@ -2351,7 +2351,7 @@
         letter-spacing: 1px;
         font-weight: 700;
         text-transform: uppercase;
-        font-family: 'Roboto Slab', serif;
+        font-family: 'Source Sans Pro', serif;
     }
 
     .fluid-section-two .left-column h3 {
@@ -2457,7 +2457,7 @@
         text-transform: uppercase;
         font-size: 15px;
         font-weight: 700;
-        font-family: 'Roboto Slab', serif;
+        font-family: 'Source Sans Pro', serif;
         text-align: center;
         margin-bottom: 5px;
         color: rgba({{$title_color[0]}},{{$title_color[1]}},{{$title_color[2]}},{{$title_color[3]}});
@@ -2516,7 +2516,7 @@
         font-size: 14px;
         line-height: 1.4em;
         padding: 0px 0px 10px;
-        font-family: 'Roboto Slab', serif;
+        font-family: 'Source Sans Pro', serif;
         margin-bottom: 35px;
         font-weight: 700;
         text-transform: uppercase;
@@ -2529,7 +2529,7 @@
         font-size: 14px;
         line-height: 1.4em;
         padding: 0px;
-        font-family: 'Roboto Slab', serif;
+        font-family: 'Source Sans Pro', serif;
         margin-bottom: 20px;
         font-weight: 700;
         text-transform: uppercase;
@@ -2610,7 +2610,7 @@
         margin-bottom: 7px;
         font-size: 13px;
         text-transform: uppercase;
-        font-family: 'Roboto Slab', serif;
+        font-family: 'Source Sans Pro', serif;
     }
 
     .footer-style-one .footer-upper .social-links a {
@@ -2949,7 +2949,7 @@
     }
 
     .product-style-one .inner-box h3 {
-        font-family: 'Roboto Slab', serif;
+        font-family: 'Source Sans Pro', serif;
         font-size: 28px;
         font-weight: 700;
         text-transform: capitalize;
@@ -3168,7 +3168,7 @@
         font-size: 20px;
         font-weight: 400;
         color: rgba({{$title_color[0]}},{{$title_color[1]}},{{$title_color[2]}},{{$title_color[3]}});
-        font-family: 'Roboto Slab', serif;
+        font-family: 'Source Sans Pro', serif;
         line-height: 1.4em;
         margin-bottom: 5px;
     }
@@ -3375,7 +3375,7 @@
 
     .news-style-one .lower-content h3 {
         font-size: 16px;
-        font-family: 'Roboto Slab', serif;
+        font-family: 'Source Sans Pro', serif;
         color: rgba({{$title_color[0]}},{{$title_color[1]}},{{$title_color[2]}},{{$title_color[3]}});
         font-weight: 700;
         margin-bottom: 10px;
@@ -3383,7 +3383,7 @@
 
     .news-style-one .lower-content h4 {
         font-size: 14px;
-        font-family: 'Roboto Slab', serif;
+        font-family: 'Source Sans Pro', serif;
         color: rgba({{$title_color[0]}},{{$title_color[1]}},{{$title_color[2]}},{{$title_color[3]}});
         font-weight: 700;
         margin-bottom: 10px;
@@ -3575,7 +3575,7 @@
         font-weight: 400;
         color: rgba({{$title_color[0]}},{{$title_color[1]}},{{$title_color[2]}},{{$title_color[3]}});
         line-height: 1.4em;
-        font-family: 'Roboto Slab', serif;
+        font-family: 'Source Sans Pro', serif;
         margin-bottom: 10px;
     }
 
@@ -3889,7 +3889,7 @@
         color: rgba({{$main_color[0]}},{{$main_color[1]}},{{$main_color[2]}},{{$main_color[3]}});
         line-height: 1.4em;
         text-transform: capitalize;
-        font-family: 'Roboto Slab', serif;
+        font-family: 'Source Sans Pro', serif;
     }
 
 
@@ -4283,7 +4283,7 @@
         position: relative;
         padding: 15px 20px;
         border-left: 5px solid rgba({{$choice_color[0]}},{{$choice_color[1]}},{{$choice_color[2]}},{{$choice_color[3]}});
-        font-family: 'Roboto Slab', cursive;
+        font-family: 'Source Sans Pro', cursive;
         background: none;
         font-size: 24px;
         line-height: 1.3em;
@@ -4659,7 +4659,7 @@
         font-size: 14px;
         font-weight: 700;
         line-height: 1.4em;
-        font-family: 'Roboto Slab', serif;
+        font-family: 'Source Sans Pro', serif;
         color: rgba({{$title_color[0]}},{{$title_color[1]}},{{$title_color[2]}},{{$title_color[3]}});
         margin-bottom: 5px;
     }
@@ -4703,7 +4703,7 @@
         letter-spacing: 1px;
         font-weight: 700;
         text-transform: uppercase;
-        font-family: 'Roboto Slab', serif;
+        font-family: 'Source Sans Pro', serif;
     }
 
     .subscribe-section .form-container h3 {
@@ -4897,7 +4897,7 @@
     .default-shop-item .lower-content h3 {
         font-size: 18px;
         color: rgba({{$title_color[0]}},{{$title_color[1]}},{{$title_color[2]}},{{$title_color[3]}});
-        font-family: 'Roboto Slab', serif;
+        font-family: 'Source Sans Pro', serif;
         margin-bottom: 10px;
     }
 
@@ -5017,7 +5017,7 @@
         font-size: 20px;
         font-weight: 700;
         margin: 0px 0px;
-        font-family: 'Roboto Slab', serif;
+        font-family: 'Source Sans Pro', serif;
         line-height: 1.4em;
         color: rgba({{$title_color[0]}},{{$title_color[1]}},{{$title_color[2]}},{{$title_color[3]}});
         margin-bottom: 15px;
@@ -5268,7 +5268,7 @@
     .prod-tabs .tabs-container .tab h5,
     .prod-tabs .tabs-container .tab h6 {
         margin-bottom: 15px;
-        font-family: 'Roboto Slab', serif;
+        font-family: 'Source Sans Pro', serif;
     }
 
     .prod-tabs .tabs-container .tab .content p {
@@ -5647,7 +5647,7 @@
         font-size: 15px;
         font-weight: 700;
         color: rgba({{$title_color[0]}},{{$title_color[1]}},{{$title_color[2]}},{{$title_color[3]}});
-        font-family: 'Roboto Slab', serif;
+        font-family: 'Source Sans Pro', serif;
         text-transform: capitalize;
         margin-bottom: 15px;
     }
@@ -5840,7 +5840,7 @@
         font-weight: 400;
         color: rgba({{$title_color[0]}},{{$title_color[1]}},{{$title_color[2]}},{{$title_color[3]}});
         text-transform: capitalize;
-        font-family: 'Roboto Slab', serif;
+        font-family: 'Source Sans Pro', serif;
     }
 
     .shop-form {

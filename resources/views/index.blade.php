@@ -7,7 +7,9 @@
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/revolution-slider.css" rel="stylesheet">
     <meta name="keywords" content="шпалы, sleeper, traverse, железная дорога, строительство, бетон, поезд, верхнее строение пути, ремонт железных дорог, скрепление, Padnrol, железобетон, основание, подъездной путь">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <x-common.style/>
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">

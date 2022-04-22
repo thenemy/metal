@@ -7,7 +7,7 @@
             <div class="filters text-center">
                 <ul class="filter-tabs filter-btns clearfix">
                     <li class="active filter" data-role="button" data-filter="all">All</li>
-                    @foreach($titles as $title)
+                        @foreach($titles as $title)
                         <li class="@if($loop->first) active @endif filter" data-role="button"
                             data-filter=".{{$title->title}}">{{$title->title}}</li>
                     @endforeach

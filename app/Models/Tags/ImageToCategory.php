@@ -24,7 +24,11 @@ class ImageToCategory extends Model
 
     public function category()
     {
-        return $this->belongsToMany(CategoryGallery::class, "imagables");
+        return $this->belongsToMany(CategoryGallery::class,
+            "imagables",
+            "image_to_category_id",
+            "category_gallery_id"
+        );
     }
 
 }

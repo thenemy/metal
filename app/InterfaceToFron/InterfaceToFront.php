@@ -98,7 +98,7 @@ trait InterfaceToFront
     {
 
         return $categories->map(function ($cat) use (&$array) {
-            $item = new ItemCategory($cat->name ?? "");
+            $item = new ItemCategory($cat['name^' . app()->getLocale()] ?? "");
             $array[$cat->id] = $item;
             return $item;
         });
